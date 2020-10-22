@@ -14,10 +14,6 @@ def is_first_time_start_up():
 def first_time_conf():
     pass
 
-# gather config information from conf file
-def conf():
-    pass
-
 # pull the dotfiles from the git repo
 def git_pull():
     pass
