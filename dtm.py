@@ -2,13 +2,19 @@
 import os
 import subprocess
 import argparse
+from conf import 
 
 if __name__ == "__main__":
     main()
 
+conf_path = conf.gen_conf.path()
+
 # check if dtm has been run on this machine
 def is_first_time_start_up():
-    pass
+    if (conf_path == "placeholder for non-existent"):
+        return True
+    else:
+        return False 
 
 # setup configuration files and generate default config file for first time use
 def first_time_conf():
