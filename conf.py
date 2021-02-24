@@ -1,4 +1,5 @@
 #!/usr/bin/python
+import pathlib
 
 # generates the path to the config file
 def gen_conf_path():

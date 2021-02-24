@@ -2,12 +2,12 @@
 import os
 import subprocess
 import argparse
-from conf import 
+from conf import *
 
 if __name__ == "__main__":
     main()
-
-conf_path = conf.gen_conf.path()
+def main():
+    conf_path = conf.gen_conf.path()
 
 # check if dtm has been run on this machine
 def is_first_time_start_up():
